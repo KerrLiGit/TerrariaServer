@@ -1,3 +1,3 @@
 FROM ghcr.io/beardedio/terraria:latest
 COPY . /config
-RUN 1
+RUN echo 1
