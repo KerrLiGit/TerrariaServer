@@ -1,3 +1,3 @@
 FROM ghcr.io/beardedio/terraria:latest
-COPY config /config
+COPY . /config
 EXPOSE 8888
