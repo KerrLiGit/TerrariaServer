@@ -1,3 +1,3 @@
 FROM ghcr.io/beardedio/terraria:latest
 COPY . /config
-ENTRYPOINT ["-e", "world=3d1c3608e4db4d7d.wld"]
+ENTRYPOINT ["cmd", "1"]
